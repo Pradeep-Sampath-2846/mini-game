@@ -12,14 +12,14 @@ const draw=()=>{
     if(index>7) index=1;
     
     if(dy<0){
-        playerElm.style.backgroundImage=`url(img/templerun/Jump__00${index++}.png)` 
+        playerElm.style.backgroundImage=`url('img/templerun/Jump__00${index++}.png')` 
     }else if(dz===5){
-        playerElm.style.backgroundImage=`url(img/templerun/Slide__00${index++}.png)`
+        playerElm.style.backgroundImage=`url('img/templerun/Slide__00${index++}.png')`
 
     }else if(dx===0){
-        playerElm.style.backgroundImage=`url(img/templerun/Idle__00${index++}.png)`
+        playerElm.style.backgroundImage=`url('img/templerun/Idle__00${index++}.png')`
     }else{
-        playerElm.style.backgroundImage=`url(img/templerun/Run__00${index++}.png)`
+        playerElm.style.backgroundImage=`url('img/templerun/Run__00${index++}.png')`
     }
     requestAnimationFrame(draw); 
 }
