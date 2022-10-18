@@ -18,7 +18,7 @@
 body{
     height: 100vh;
     overflow: hidden;
-    background-image: url(img/BG.png);
+    background-image: url(../img/BG.png);
     background-size: contain;
 }
 #ground{
@@ -27,7 +27,7 @@ body{
     width: 100vw;
     height: 200px;
     bottom: 0;
-    background-image: url(img/Tile\ \(2\).png);
+    background-image: url(../img/Tile\ \(2\).png);
     background-size: contain;
 }
 
